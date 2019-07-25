@@ -1,9 +1,12 @@
 import React from 'react';
+import Header from '../../containers/Header/index'
+import MainSection from '../../containers/MainSection/index'
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      hello todo app
+    <div>
+      <Header />
+      <MainSection />
     </div>
   );
 }
